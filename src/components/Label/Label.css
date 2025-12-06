@@ -1,0 +1,15 @@
+.label-wrapper {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  padding: 2px;
+}
+
+.label-wrapper-img {
+  display: block;
+  /* width: 20px; */
+  height: 18px;
+  object-fit: contain;
+}

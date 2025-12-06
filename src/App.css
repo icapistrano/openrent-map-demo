@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content-wrapper {
+  height: 100%;
+}
+
+.content-wrapper h1 {
+  font-size: 2em;
+  text-align: left;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.map-image {
+  width: 100%;
+  display: block;
+}
+
+.pin {
+  position: absolute;
+  transform: translate(-50%, -100%); /* centers the pin above the point */
+  cursor: pointer;
+  font-size: 24px;
+  transition: transform 0.2s;
+}
+
+.pin:hover {
+  transform: translate(-50%, -100%) scale(1.2);
+}
+
+.open-rent-bg-color {
+  background-color: #5695c6;
+}

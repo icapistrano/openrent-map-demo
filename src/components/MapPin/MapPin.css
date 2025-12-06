@@ -1,0 +1,11 @@
+.map-pin {
+  position: absolute;
+  height: 30px;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.map-pin:hover {
+  transform: translate(-50%, -100%) scale(1.2); /* slightly bigger on hover */
+}
