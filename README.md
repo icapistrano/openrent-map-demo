@@ -20,7 +20,7 @@ In the current OpenRent experience, users must:
 - Locate the associated property card in the listing  
 
 This breaks spatial context and creates unnecessary friction. Users ideally want:
-- A quick glimpse of key property details  
+
 - Immediate visual confirmation of property details such as price, number of bedrooms, and bathrooms 
 - Faster scanning without losing their place on the map  
 
@@ -34,20 +34,18 @@ This redesign focuses on keeping users fully within the map exploration flow.
 
 ## ✅ Solution Overview
 
+The goal is to allow users to support faster discovery and decision-making without taking users away from the map.
 This prototype includes:
 
 - **Interactive map pins** with hover and click states  
-- **Quick-view property cards** displayed directly on the map  
+- **Property preview cards** displayed directly on the map  
 - A simple **search** to filter property listings
 
-The goal is to allow users to:
-> The goal is to support faster discovery and decision-making without taking users away from the map.
-
-## ⏱ Time Constraints & Scope Decisions
+## ⏰ Time Constraints & Scope Decisions
 
 Due to the limited timeframe, I deliberately focused on:
 - Map interaction
-- Quick-view preview behavior
+- Quick preview behavior
 - Search and filtering experience
 
 Rather than rebuilding the full list view, the emphasis was placed on solving the **core interaction friction** between pin selection and property discovery.
@@ -69,16 +67,12 @@ If given more time, I would:
 - Focused on **one high-impact problem** instead of rebuilding the entire UI  
 - Designed for **in-context decision-making**  
 - Optimised for **fast scanning** and reduced **cognitive effort**
-- Balanced **visual familiarity** (OpenRent + Rightmove patterns) with innovation  
-- Prioritised perceived performance and micro-interactions  
 
 ## 🛠 Tech Stack
 
 - React  
 - TypeScript  
-- CSS  
-- Static map-based positioning  
-- No external UI frameworks (custom UI implementation)  
+- CSS   
 
 ## 🚀 How to Run the Project
 
