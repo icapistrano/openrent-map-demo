@@ -1,4 +1,4 @@
-# OpenRent – Map-Based Property Discovery Redesign (UX/UI Concept)
+# OpenRent – Map-Based Property Discovery Redesign (UI/UX Concept)
 
 This project is a focused UI/UX redesign exploration of OpenRent’s map-based property discovery experience. The goal was to identify and improve a core usability pain point within a limited time constraint, rather than recreate the full product.
 

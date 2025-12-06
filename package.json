@@ -1,5 +1,6 @@
 {
   "name": "openrent-map-demo",
+  "homepage": "https://icapistrano.github.io/openrent-map-demo/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
